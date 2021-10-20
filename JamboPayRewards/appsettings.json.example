@@ -1,0 +1,18 @@
+{
+  "JWTSettings": {
+    "SecretKey":"YOUR_KEY_HERE",
+    "Issuer": "http://localhost:5000",
+    "Audience": "Api"
+  },
+  "ConnectionStrings": {
+    "Jambopay": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JamboPay;Integrated Security=True"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
